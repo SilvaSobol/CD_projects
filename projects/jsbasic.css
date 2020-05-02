@@ -1,0 +1,77 @@
+/*CSS reset settings here*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+   #wrapper{
+    width: 970px;
+    background-color:rgb(32, 50, 90);
+    margin: 0px auto;
+    height: 630px;
+    padding:10px;
+   }
+   #header{
+    min-height: 10px;
+    background-color: rgb(190,62,60);
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    color:rgb(198,214,233);
+   }
+   #navigation{
+    min-height: 200px;
+    width: 180px;
+    background-color: rgb(66,123,138);
+    display:inline-block;
+    padding: 15px;
+    vertical-align: top;
+    border-radius: 15px;
+    color:rgb(134,215,213)
+   }
+#navigation ul{
+    padding-left: 20px;
+    margin: 0px;
+    color:rgb(134,215,213)
+   }
+   #navigation a{
+    color: rgb(134,215,213);
+    font-size: 14px;
+    font-weight: bold;
+   }
+   #main_content{
+    min-height: 490px;
+    width:680px;
+    background-color: rgb(15, 23,32);
+    display:inline-block;
+    margin-left: 30px;
+    border-radius: 15px;
+    padding: 15px;
+    color: rgb(198,214,233);
+    }
+    span{
+        color: rgb(131,141,250);
+    }
+    #main_content ul{
+        padding:15px;
+    }
+    #main_content a{
+        color: rgb(134,215,213);
+    }
+    #advertisement{
+    min-height: 38px;
+    background-color: rgb(95,101,114);
+    margin: 10px;
+    border-radius: 15px;
+    }
+    #advertisement a{
+        color: rgb(134,215,213);
+    }
+    p{
+        padding: 15px;
+        margin: 0px;
+        color: rgb(198,214,233);
+        font-size: 14px;
+        font-weight: bold;
+    }
+   
+  

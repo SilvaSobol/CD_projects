@@ -1,0 +1,10 @@
+body{
+    widows: 800px;
+    background-color: aqua;
+}
+img{
+    display: block;
+    padding:5px;
+    margin-left: 300px;
+    
+}

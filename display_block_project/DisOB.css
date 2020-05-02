@@ -1,0 +1,46 @@
+
+
+img {
+   width:100px;
+}  
+.green{
+    background-color: white;
+}
+div{
+    display:inline-block;
+}
+.container{
+    width:850px;
+    height: 700px;
+    background-color: rgb(212,209,178)
+}
+.main{
+    margin: 0 auto;
+    width:710px;
+    display: block;
+}
+#header{
+    width:510px;
+    margin: 0 auto;
+    padding: 10px;
+    display: block;
+}
+h1{
+    display:inline-block;
+}
+.white{
+    border: 3px solid black;
+    background: lightblue;
+    padding:15px 15px 12px 15px;
+    margin:1px;
+}
+.pink{
+    background-color: pink;
+    border: 3px solid black;
+    padding:15px 15px 12px 15px;
+    margin: 1px;
+}
+  
+.kuku{
+    margin-top: 15px;
+}

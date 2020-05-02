@@ -1,0 +1,42 @@
+body{
+    background-color: yellowgreen;
+    padding: 15px;
+   
+}
+
+.center{
+ margin-left: 35%;
+}
+
+p{
+    display:inline-block;
+    margin-left: 40px;
+
+}
+#addClass{
+    color:red;
+
+}
+#fadeIn{
+    display:none;
+}
+#hidden{
+    display:none;
+}
+
+button{
+    display: inline-block;
+    border: 3px;
+    box-shadow: 4px 4px black;
+}
+h3{
+    color:blueviolet;
+}
+span{
+    font-style: italic;
+    font-size: large;
+    color: coral;
+}
+.chocolate{
+    color:white;
+}

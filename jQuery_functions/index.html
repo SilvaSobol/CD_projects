@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>My jQuery Assignment</title>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+        <script src="main.js"></script>
+        <link id="style" rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1 class = "center">Click</h1>
+            <button class="btn">Click this button to see the message!</button>
+            <p>Message of the DAY</p>
+            <br>
+        <hr>
+        <h1 class = "center">Toggle</h1>
+        <button class="slideToggle">Click to switch between slide up and slide down</button>
+        <p>Switches between slide up and slide down</p>
+		<p id="slideToggle">I am the toggled element</p>
+             <br>
+         <hr>
+         <h1 class = "center">Hide</h1>
+             <button class = 'hide'>Click here to hide an element</button>
+             <p>Click the button to show the previous hidden button<p>
+            <br>
+            <hr>
+         <h1 class = "center">Show</h1>
+             <button class = 'show'>Click here to return the hidden element</button>
+             <p>Click the button to show the previously hidden button<p>
+            <br>
+            <hr>
+         <h1 class = "center">slideDown</h1>
+            <button class="slideDown">Click to see a slide down hidden element</button>
+            <p>This function reveals a hidden element <p>
+            <p id="hidden" hidden> I was hiding</p>
+            <br>
+            <hr>
+        <h1 class = "center">slideUp</h1>
+            <button class="slideDown">Click to show previously hidden element</button>
+            <p> This hides an element by sliding up! <p>
+            <p id="slideUp" hidden> I was hiding</p>
+            <br>
+            <hr>
+        <h1 class = "center">fadeIn</h1>
+            <button class="fadeIn">Click to see a fading in </button>
+            <p> This element adds a fading in effect <p>
+            <p id="fadeIn" hidden> Magical Fadin IN!</p>
+            <br>
+            <hr>
+        <h1 class = "center">fadeOut</h1>
+            <button class="fadeOut">Click to see a fading out element</button>
+            <p> This element adds a fading out effect <p>
+            <p id="fadeOut"> I will fade now!</p>
+            <br>
+            <hr>
+        <h1 class = "center">addClass</h1>
+            <button class ="addClass">Click to change a COLOR</button>
+            <p> This element has to change the color of the other paragraph!  <p>
+            <p id="addClass"> This has to turn RED</p>
+            <br>
+            <hr>
+         <h1 class = "center">Before</h1>
+            <button class ="before">Click to add before me</button>
+            <p>If you are ready click to reveal the message<p>
+            <p id="before"> Something to be added before me!</p>
+            <br>
+            <hr>
+        <h1 class = "center">After</h1>
+            <button class ="after">Click to add a line!</button>
+            <p>Let's see what will happen when you click the link<p>
+            <p id="after"> Something will be added after me!</p>
+            <br>
+            <hr>
+        <h1 class = "center">Append</h1>
+            <button class ="append">Click to append an element within!</button>
+            <p>Append a text after last element!<p>
+            <p id="append"> Something will be added after me!</p>
+            <br>
+            <hr>
+        <h1 class = "center">Prepend</h1>
+            <button class ="prepend">Click to append an element within!</button>
+            <p> This will prepend a text bfore the last element!<p>
+            <p id="prepend"> Something will be added before me!</p>
+            <br>
+            <hr>
+        <h1 class = "center">HTML</h1>
+            <button class ="html">Click to append an element within!</button>
+            <p>This should replace an HTML within an element</p>
+            <div id="html"><p>I am a p tag within this div</p></div>
+            <br>
+            <hr>
+        <h1 class = "center">attr</h1>
+            <button class ="attr">Click to retrive the CLASS</button>
+            <button class ="attr2">Let's change the Class Attributte to white!</button>
+            <p>Let's set or retrive an attricute of an element here!</p>
+            <p class="CHOCOLATE " id="attr"> I am a p tag with the class of CHOCOLATE. Class = </p>
+            <br>
+            <hr>
+        <h1 class = "center">Value</h1> 
+            <p>This jQuery retreives or sets a value of an input</p>
+		    <input type="text" name="name" id="val">
+		    <button class="val">Click to retreive the value of the input. Look in your console</button>
+             <button class="val2">click to change the value of the input to "Pretty Cool"</button>
+            <br>
+            <hr>
+        <h1 class="center">text</h1>
+		    <p>This will replace the text of an element</p>
+		    <p id="text">My text will be replaced</p>
+            <button class="text">Click to replace the text with "this is eary"</button>
+            <br>
+            <hr>
+        <h1 class="center">data</h1>
+            <p>Stores a data value in that element(hidden in javascript)</p>
+		    <p id="data">I have a phrase hidden in me. What is it?</p>
+		    <button class="data">Click to retreive the message!</button>
+    </body>
+</html>

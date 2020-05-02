@@ -1,0 +1,16 @@
+body{
+    background-color:whitesmoke;
+    width:900px;
+    padding:15px;
+}
+img{
+    display:inline-block;
+}
+button{
+    background-color: lightcyan;
+    font-weight: bold;
+    width: 150px;
+    height:30px;
+    margin-left:365px;
+    margin-top:15px;
+}

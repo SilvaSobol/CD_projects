@@ -1,0 +1,40 @@
+h1, p, h4{
+    margin: 10px;
+    padding: 15px 15px 15px 15px;
+}
+h1{
+    background-color: gray;
+}
+p{
+    background-color: lightslategray;
+}
+h4{
+    background-color: greenyellow;
+}
+strong{
+    color: purple;
+}
+@media only screen and(max-width:480px){
+    #phone {
+        display: inherit;
+    }
+    #desktop,#tablet{
+        display: none;
+    }
+}
+@media only screen and(min-width:481px){
+    #tablet{
+        display:inherit
+    }
+    #desktop, #phone{
+        display:none;
+    }
+}
+@media only screen and(min-width 1024px){
+    #desktop{
+        display: inherit
+    }
+    #tablet, #phone{
+        display:none;
+    }
+}
